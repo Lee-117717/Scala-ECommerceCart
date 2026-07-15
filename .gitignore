@@ -1,0 +1,22 @@
+# SBT
+target/
+project/target/
+project/project/
+
+# IDE
+.idea/
+.bsp/
+*.iml
+.idea_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build outputs
+*.class
+*.jar
+*.war
