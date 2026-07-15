@@ -39,9 +39,12 @@
 ## 项目结构
 
 ```
-SimpleECommerceCart/
+Scala-ECommerceCart/
 ├── build.sbt                          # SBT 构建配置
-├── ecommerce_cart.sql                  # 数据库初始化脚本
+├── docs/
+│   └── 实验报告.docx                   # 项目实践报告
+├── sql/
+│   └── ecommerce_cart.sql              # 数据库初始化脚本
 ├── src/main/
 │   ├── resources/
 │   │   └── application.conf           # Slick 数据库配置
@@ -88,7 +91,7 @@ SimpleECommerceCart/
 执行项目根目录下的 SQL 脚本创建数据库和表结构：
 
 ```bash
-mysql -u root -p < ecommerce_cart.sql
+mysql -u root -p < sql/ecommerce_cart.sql
 ```
 
 ### 2. 配置数据库连接
